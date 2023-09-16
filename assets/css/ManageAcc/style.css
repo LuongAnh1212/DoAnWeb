@@ -1,0 +1,7 @@
+.manage-account:hover > .manage-account-box{
+    display: block;
+}
+.text-choice{
+    color: #D81B60;
+    font-weight: bold;
+}

@@ -1,0 +1,380 @@
+/* #addressE::placeholder {
+color: gray;
+} */
+.order-main {
+	background-color: #F5F5F7;
+}
+.box-title{
+	background-color: #eee;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.box-title-main{
+	max-width: 1360px;
+	margin: 0 auto;
+}
+.section-title{
+	color: #ee4d2d;
+}
+.title_info_cus{
+	display: flex;
+	align-items: center;
+	font-size: 0.95em;
+	color: var(--main-color);
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	flex: 1 1 auto;
+}
+.icon_info_cus{
+	display: flex;
+  margin-right: 9px;
+}
+.change_info{
+	padding-top: 15px;
+	text-align: right;
+}
+.change_pttt{
+	text-align: right;
+  padding-top: 7px;
+}
+.button_muatcong {
+  text-align: center;
+  padding: 2em;
+}
+.table-responsive{
+	padding-top: 15px;
+}
+.breadcrumb-item:not(:last-child), a.giohang {
+  color: var(--color-btn-cancel);
+}
+.section-content {
+  line-height: 0.5em;
+  padding-top: 0.5em;
+}
+.thongbao_muatcong {
+  border: 1px solid var(--color-btn-cancel);
+  padding: 2em;
+}
+.button_muatcong button.button {
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 3.5em;
+  border-radius: 0 !important;
+  text-transform: uppercase;
+  line-height: 38px;
+  font-size: 14px;
+  color: var(--color-letter-1);
+  background-color:  var(--background-color);
+  border: 1px solid var(--color-letter-1);
+  letter-spacing: 0;
+  font-weight: 600;
+}
+.button_muatcong button.button:hover {
+  background-color: var(--main-color);
+  color: white;
+  border: 1px solid  var(--main-color);
+}
+/* .fieldset .field .field-input-wrapper input.field-input:invalid {
+  border: 1px solid var(--color-error);
+} */
+/* new */
+.field-input-wrapper.error input.field-input {
+  border: 1px solid var(--color-error);
+}
+.field-input-wrapper.error input:invalid {
+  border: 1px solid var(--color-error);
+}
+.field-input-wrapper.error input::placeholder {
+  color:var(--color-error);
+  opacity: 1;
+}
+.field-input-wrapper.success input {
+  border: 1px solid var(--color-success);
+}
+.field-input-wrapper small {
+  color:var(--color-error);
+}
+.field-input-wrapper{
+	padding-bottom: 20px;
+  line-height: 1px;
+}
+ul.breadcrumb {
+
+  padding: 0.75rem 0rem;
+
+  margin-bottom: 0rem;
+
+  list-style: none;
+
+  background-color:  var(--background-color);
+
+  border-radius: unset;
+
+}
+table.table td, table.table th {
+    vertical-align: unset;
+}
+.field-required input {
+
+  width: 100%;
+
+}
+
+.the2hang {
+
+  display: flex;
+
+  justify-content: space-between
+
+}
+
+/* .field-two-thirds {
+
+  width: 50%;
+
+} */
+
+.field-input {
+
+  /* box-shadow: 0 0 0 1px #d9d9d9; */
+
+  transition: all 0.2s ease-out;
+
+  background-color: var(--background-color);
+
+  color: var(--color-btn-cancel);
+
+  border-radius: 4px;
+
+  display: block;
+
+  box-sizing: border-box;
+
+  width: 100%;
+
+  padding: 0.6em 2.8em 0.6em 0.8em;
+
+  word-break: normal;
+
+  border: 1px solid #9b96963b;
+    outline: none;
+}
+
+.field-input:focus {
+
+  border: 1px solid rgb(130, 155, 176);
+
+}
+
+.fieldset .field {
+
+  width: 100%;
+
+  padding: 0.45em;
+
+}
+
+table.table-bordered td, table.table-bordered th, table.table-bordered {
+
+  border: none;
+
+}
+
+.thongtinsanpam_xacnhandon {
+
+  font-size: 0.95em;
+
+  align-items: center;
+
+}
+
+div.sss {
+    font-size: 0.65em;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0.5vw 1.5vw;
+    border-radius: 2em;
+    background-color: var(--bg-color-order-confirmation);
+    color:  var(--background-color);
+    position: absolute;
+    right: 90.5%;
+    top: 0.5em;
+    z-index: 2;
+}
+.cothinh_xacnhandon {
+
+  width: 15%;
+}
+
+.cothinh_xacnhandon img{
+
+  width: 100%;
+    object-fit: cover;
+    height: 4.2vmax;
+}
+
+.xnhandon {
+
+  border-left: 0.5px solid var rgb(164, 161, 161);
+
+}
+
+.thanhtien_xnhandon {
+
+  border-top: 1px solid rgb(231, 227, 227);
+
+}
+
+.toanman_xnhandon {
+
+  background-color: var(--bg-color-order-confirmation);
+
+}
+
+.cot7_xnhandon {
+
+  background-color:  var(--background-color);
+
+}
+td.sss{
+	text-align: center;
+}
+.head_thongtinsanpam{
+	border-top: 1px solid rgb(231, 227, 227);
+	text-align: center;
+	font-weight: bold;
+}
+.btn_change_info:hover{
+	color: var(--main-color);
+}
+.select_pttt{
+	transition: all 0.2s ease-out;
+	background-color: var(--background-color);
+	color: var(--color-btn-cancel);
+	border-radius: 4px;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+  padding: 1em 2.8em 1em 0.8em;
+	word-break: normal;
+	border: 1px solid #9b96963b;
+	outline: none;
+}
+button.button_xnhandon {
+background-color:  var(--main-color);
+margin-top: 0.3em;
+float: right;
+color:  var(--background-color);
+margin-top: 1em;
+}
+button.button_xnhandon:hover {
+  color:  var(--background-color);
+  background-color:  var(--main-color);
+}
+.btn_change_pttt{
+  color: #ee4d2d;
+  border: none;
+  height: 20px;
+  background-color: white;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+/* box choose PTTT */
+.box-choose-pttt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1001;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,.14);
+  }
+
+.box-choose-pttt-main{
+  background: #fff;
+  height: auto;
+  z-index: 10000;
+  border-radius: 3px;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,.14);
+  position: relative;
+}
+.form-choose-pttt{
+  max-width: 550px;
+  padding: 10px;
+  min-width: 450px;
+}
+.box-choose-pttt-title{
+  padding: 20px;
+  text-align: center;
+  color: #ee4d2d;
+}
+.btn-pttt{
+  width: 100%;
+  background-color: white;
+  border: none;
+  padding: 10px 0px;
+  border-top: 1px solid #ece7e7;
+  text-align: left;
+}
+.btn-pttt{
+  display:flex;
+}
+.image-vnpay{
+  width: 45px;
+  height: 45px;
+}.image-cod{
+  width: 40px;
+  height: 40px;
+}
+.box-choose-pttt-footer{
+  border-top: 1px solid #ece7e7;
+}
+.box-choose-pttt-footer{
+  text-align: center;
+}
+.btn-close-box-choose-pttt{
+  border: 1px solid #ad9c9c;
+  padding: 5px 20px;
+  margin: 10px;
+  background-color: white;
+}
+.btn-close-box-choose-pttt:hover{
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  color: white;
+}
+.name-pttt{
+  margin: auto 0px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+li.breadcrumb-item-current, .section-header h2{
+font-size:1.25rem;
+}
+div.sss {
+    font-size: 0.75em;
+    padding: 0.5vw 1vw;
+    right: 94%;
+    top: 0.5em;
+}
+.cothinh_xacnhandon img {
+    width: 68%;
+}
+.xnhandon {
+
+  border-left: unset;
+  border-top: 1px solid var(--color-btn-cancel);
+}
+
+}
+@media only screen and (max-device-width: 480px) {
+ .cothinh_xacnhandon {
+    width: 22%;
+}
+}

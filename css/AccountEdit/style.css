@@ -1,0 +1,637 @@
+.box-title{
+    background-color: #eee;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.box-title-main{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.account-edit-main{
+    background-color: #F5F5F7;
+}
+.container-edit{
+    display: flex;
+    width: 100%;
+    margin: 0px auto 20px;
+    flex-wrap: wrap;
+}
+
+/* Left */
+.info-left{
+    width: 250px;
+    margin-right: 17px;
+}
+.Account__StyleAvatar{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 7px;
+    margin: 0px 0px 12px;
+}
+.box-avatar-small{
+    width: 45px;
+    height: 45px;
+    margin: 0px 12px 0px 0px;
+}
+.Account__StyleAvatar img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+}
+.Account__StyleAvatar .info-account{
+    flex: 1 1 0%;
+    font-size: 15px;
+    line-height: 15px;
+    color: rgb(51, 51, 51);
+    font-weight: 300;
+}
+.Account__StyleAvatar .info-account strong{
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 400;
+    display: block;
+    margin: 4px 0px 0px;
+}
+.Account__StyleNav{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 16px;
+}
+.Account__StyleNav a{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 7px 18px;
+    color: rgb(74, 74, 74);
+}
+.Account__StyleNav a svg{
+    width: 24px;
+    height: 24px;
+    margin: 0px 22px 0px 0px;
+    font-size: 24px;
+    color: rgb(155, 155, 155);
+}
+.Account__StyleNav i {
+    width: 24px;
+    height: 24px;
+    margin: 0px 20px 0px 2px;
+    font-size: 20px;
+    color: rgb(155, 155, 155);
+}
+.Account__StyleNav a.is-active {
+    background-color: rgb(235, 235, 240);
+    color: rgb(0, 0, 0);
+}
+/* End Left */
+
+/* Right */
+.info-right{
+    flex: 1 1 0%;
+}
+.info-right .form-avatar{
+    margin: 10px auto;
+}
+.Style__Heading{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    margin: 4px 0px 12px;
+    color: var(--third-color);
+}
+.Styles__InfoPage .info-row{
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.Styles__InfoPage .info-left{
+    width: 553px;
+    padding: 16px 24px 16px 16px;
+}
+.Styles__InfoPage .info-left-addsp{
+    width: 850px;
+    padding: 16px 24px 16px 16px;
+}
+.Styles__InfoPage .info-right-addsp{
+    width: calc(100% - 850px);
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    flex-direction: column;
+}
+.Styles__InfoPage .info-vertical{
+    border-left: 1px solid rgb(235, 235, 240);
+    margin: 16px 0px;
+}
+.Styles__InfoPage .info-right{
+    width: calc(100% - 553px);
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    flex-direction: column;
+}
+.info-left .info-title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(100, 100, 109);
+}
+.Style__AccountInfo{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-top: 16px;
+}
+.Style__AccountInfo form{
+    width: 100%;
+}
+.Style__AccountInfo .form-info{
+    display: flex;
+    flex-direction: row;
+}
+.Style__AccountInfo .form-info .form-avatar{
+    margin-right: 16px;
+}
+.styles__StyleAvatar{
+    background-color: rgb(240, 248, 255);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(194, 225, 255);
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: auto;
+}
+.styles__StyleAvatar_Image_Detail{
+    background-color: rgb(240, 248, 255);
+    width: 120px;
+    height: 50px;
+    border: 4px solid rgb(194, 225, 255);
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: auto;
+}
+.styles__StyleAvatar .avatar-wrapper{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.Account__StyleNav > li > a{
+    text-decoration: none;
+}
+.avatar-view{
+    cursor: pointer;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.avatar{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.edit_avatar{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.avatar-view-edit{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(100, 100, 109);
+    border-radius: 12px;
+    right: 3px;
+    bottom: 5px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+}
+.avatar-view-edit img{
+    width: 10px;
+    height: 10px;
+}
+.form-info .form-name{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.form-name .my-form-control{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 0px 34px;
+    border: none;
+}
+.form-name .my-form-control .input-label {
+    width: 110px;
+    min-width: 110px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin-right: 16px;
+}
+.Style__AccountInfo .my-form-control > div {
+    flex: 1 1 0%;
+    position: relative;
+    z-index: 1;
+}
+.Style__StyleInput{
+    width: 100%;
+}
+.Style__StyleInput input {
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    height: 36px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 12px;
+    line-height: 20px;
+    outline: none;
+    flex: 1 1 0%;
+    border: 1px solid rgb(196, 196, 207);
+}
+.Style__AccountInfo .my-form-control{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 0px 34px;
+    border: none;
+}
+.Style__AccountInfo .input-label{
+    width: 110px;
+    min-width: 110px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin-right: 16px;
+}
+.Style__StyledBirthdayPicker select{
+    width: 100px;
+    border: 1px solid rgb(204, 204, 204);
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 34px;
+    outline: none;
+    border-radius: 4px;
+    margin: 0px 12px 0px 0px;
+    background: 0px center;
+    box-shadow: none;
+}
+.Style__StyledLSP select{
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 34px;
+    outline: none;
+    border-radius: 4px;
+    margin: 0px 12px 0px 0px;
+    background: 0px center;
+    box-shadow: none;
+}
+.Style__StyledDMSP select{
+    width: 50%;
+    border: 1px solid rgb(204, 204, 204);
+    height: 34px;
+    padding: 6px 12px;
+    line-height: 34px;
+    outline: none;
+    border-radius: 4px;
+    margin: 0px 12px 0px 0px;
+    background: 0px center;
+    box-shadow: none;
+}
+.Radio__StyledRadio{
+    display: flex;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.Radio__StyledRadio .label {
+    font-size: 13px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color:black;
+}
+.Style__StyleBtnSubmit{
+    border: 0px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background-color: rgb(11, 116, 229);
+    cursor: pointer;
+}
+.Style__AccountInfo > form > div {
+    border: none;
+}
+.note-avatar{
+    margin: 10px auto;
+    display: block;
+}
+.note-avatar-small{
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* End Right */
+
+
+/*BẮT LỖI*/
+#form-info-user input:invalid {
+    border: 1px solid #ff623d;
+    }
+.contact-form textarea:invalid {
+    border: 1px solid #ff623d;
+}
+.Style__StyleInput.error input {
+    border: 1px solid #ff623d;
+}
+.Style__StyleInput.error input::placeholder {
+    color:#ff623d;
+    opacity: 1;
+}
+.Style__StyleInput.success input {
+    border: 1px solid #47d864;
+}
+.Style__StyleInput.success small {
+    display: none;
+}
+.Style__StyleInput small {
+    color: #ff623d;
+}
+.Style__StyledBirthdayPicker.success input {
+    border: 1px solid #47d864;
+}
+.Style__StyledBirthdayPicker.success small {
+    display: none;
+}
+.Style__StyledBirthdayPicker small{
+    color: #ff623d;
+}
+
+/* CHANGE PASS */
+.info-change-pass{
+    -webkit-box-pack: justify;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 16px 24px 16px 16px;
+}
+.changeP{
+    width: 550px;
+    margin: 20px auto;
+}
+.icon-field_ {
+    display: inline-block !important;
+    background-color: #fff;
+    color: white;
+    border: solid 1px #fff;
+    text-align: center;
+    height: 37.1px;
+    vertical-align: middle;
+    line-height: 33px;
+    width: 5%;
+    margin-top: 0.7%;
+    margin-right: 7%;
+    border-radius: 50%;
+}
+.form-signin input {
+    max-width: calc(100% - 30px) !important;
+    width: 85%;
+    height: 36.9px;
+    display: inline-block !important;
+    background-color: #fff;
+    border: solid 1px var(--main-color);
+    margin-left: -5px;
+    margin-top: 6px;
+    padding-left: 10px;
+    outline: none;
+    margin-bottom: 0px !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 10px;
+}
+a {
+    color: white;
+}
+.login h3 {
+    text-align: center;
+}
+.icon-field {
+    display: inline-block !important;
+    background-color: var(--main-color);
+    color: white;
+    border: solid 1px var(--main-color);
+    text-align: center;
+    height: 35px;
+    vertical-align: middle;
+    line-height: 33px;
+    width: 35px;
+    margin-top: 2.1%;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+#btn-login {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 35px;
+    background: var(--main-color);
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+}
+.login form {
+    max-width: 100%;
+    width: 50%;
+    padding: 15px;
+    background-color: #fff;
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 20px;
+}
+.text-black {
+    color: var(--main-color);
+}
+
+#changeP-form input:invalid {
+    border: 1px solid var(--color-error);
+    }
+.contact-form textarea:invalid {
+    border: 1px solid var(--color-error);
+}
+.info-change.error input {
+    border: 1px solid var(--color-error);
+}
+.info-change.error input::placeholder {
+    color: var(--color-error);
+    opacity: 1;
+}
+.info-change.success input {
+    border: 1px solid var(--color-success);
+}
+.info-change.success small {
+    display: none;
+}
+.info-change small {
+    color: var(--color-error);
+}
+
+/* END CHANGE PASS */
+
+/* MY ORDER */
+.Styles__Tab{
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.kJvPK{
+    width: 16.6667%;
+    padding: 12px 0px;
+    text-align: center;
+}
+.styles__Tab_title {
+    width: 16.6667%;
+    padding: 12px 0px;
+    text-align: center;
+    color: rgb(128, 128, 137);
+    border-bottom: none;
+}
+.styles__StyledInput{
+    width: 100%;
+    position: relative;
+    margin: 12px 0px;
+}
+.styles__StyledInput .icon-left {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+}
+.styles__StyledInput .search-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(11, 116, 229);
+    padding: 0px 6px 0px 16px;
+    border-left: 2px solid rgb(221, 221, 227);
+    cursor: pointer;
+}
+.styles__StyledInput input.with-icon-left {
+    padding-left: 40px;
+}
+.styles__StyledInput input {
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s, -webkit-box-shadow 0.15s ease-in-out 0s;
+    height: 36px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 12px;
+    line-height: 20px;
+    outline: none;
+    flex: 1 1 0%;
+    border: 1px solid rgb(196, 196, 207);
+}
+.styles__StyledOrder {
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    padding: 16px;
+}
+.styles__OrderHeader {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: rgb(128, 128, 137);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.styles__OrderHeader .main-status::before {
+    content: "";
+    display: block;
+    background: url(https://frontend.tikicdn.com/_desktop-next/static/img/account/delivery_done.png) center center / 20px 20px no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0px 6px 0px 0px;
+}
+.thongtinsanpam_xacnhandon {
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.main-status{
+    font-weight: bold;
+    color: black;
+}
+.cothinh_xacnhandon {
+    width: 15%;
+}
+.cothinh_xacnhandon img {
+    width: 100%;
+    object-fit: cover;
+    height: 4.2vmax;
+}
+td.sss {
+    text-align: center;
+}
+.styles__Tab_title.active{
+    color: rgb(13, 92, 182);
+    border-bottom: 2px solid rgb(13, 92, 182);
+}
+.styles__Tab_Info{
+    display:none;
+}
+.styles__Tab_Info.active{
+    display:block;
+}
+.styles__StyledOrderInfo{
+    border-bottom: 1px solid rgb(235, 235, 240);
+}
+/* END MY ORDER */
+
+/* ADD San pham */
+.card-my-form-control{
+    display: flex;
+    justify-content: space-between;
+}
+.Style__StyleInput .loại_san_pham_auto{
+    width: 50%;
+}
+/* End ADD San pham */

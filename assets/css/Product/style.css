@@ -1,0 +1,9 @@
+#displayImg {
+    margin-top: 30px;
+}
+
+#displayImg img {
+    height: 100px;
+    margin-right: 15px;
+    display: inline-block;
+}

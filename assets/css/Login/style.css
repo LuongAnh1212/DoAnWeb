@@ -1,0 +1,90 @@
+/*BẮT LỖI*/
+#login-form input:invalid {
+    border: 1px solid #ff623d;
+  }
+  .contact-form textarea:invalid {
+    border: 1px solid #ff623d;
+  }
+  .info.error input {
+    border: 1px solid #ff623d;
+  }
+  .info.error input::placeholder {
+    color: #ff623d;
+    opacity: 1;
+  }
+  .info2.error textarea::placeholder {
+    color: #ff623d;
+    opacity: 1;
+  }
+  .info_pass{
+	display:flex;
+  }
+  .info.success input {
+    border: 1px solid #47d864;
+  }
+  .info.success small {
+      display: none;
+    }
+  .info small {
+    color: #ff623d;
+  }
+
+  /* CSS */
+.input-form {
+    width: 100%;
+    height: 36.9px;
+    display: inline-block !important;
+    background-color: #fff;
+    border: solid 1px #bab5b5;
+    margin-left: -5px;
+    margin-top: 6px;
+    padding-left: 10px;
+    outline: none;
+    /* margin-bottom: 0px !important; */
+    margin-bottom: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 10px;
+    }
+#login-form form {
+    max-width: 100%;
+    width: 73%;
+    padding: 15px;
+    background-color: #fff;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    margin: auto;
+      margin-bottom: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.icon-field {
+    display: inline-block !important;
+    background-color: var(--main-color);
+    color: white;
+    border: solid 1px var(--main-color);
+    text-align: center;
+    height: 37.1px;
+    vertical-align: middle;
+    line-height: 33px;
+    width: 5%;
+    margin-top: 0.7%;
+    margin-right: 10%;
+    border-radius: 50%;
+  }
+  .icon-field_ {
+    display: inline-block !important;
+    background-color: #fff;
+    color: white;
+    border: solid 1px #fff;
+    text-align: center;
+    height: 37.1px;
+    vertical-align: middle;
+    line-height: 33px;
+    width: 5%;
+    margin-top: 0.7%;
+    margin-right: 10%;
+    border-radius: 50%;
+  }
